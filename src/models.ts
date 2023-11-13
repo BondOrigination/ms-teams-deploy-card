@@ -30,7 +30,7 @@ export class CardSection {
 }
 
 export class WebhookBody {
-  summary: string = "Github Actions CI";
+  summary: string = "Github Actions Deployment";
   text?: string;
   themeColor: string = "FFF49C";
   sections: CardSection[] = [];
